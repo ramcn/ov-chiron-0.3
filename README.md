@@ -11,7 +11,7 @@ If you found Chiron useful, please consider to cite:
 Python 2.7 venv environment for training and Python 3.6 venv for openvino inference and tensorflow 1.10.1 installed in both environment
 
 ## Test
-To run the training and generate the frozen model run the below command in python 2.7 environment 
+To run the training and generate the frozen model run the below commands 
 ```
 conda activate tf2.7
 python chiron/chiron_rcnn_train.py  
