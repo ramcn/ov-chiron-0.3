@@ -1,5 +1,6 @@
-# Chiron
-## A basecaller for Oxford Nanopore Technologies' sequencers
+# Openvino Chiron
+
+## Mapping A basecaller for Oxford Nanopore Technologies' sequencers to OpenVino
 Using a deep learning CNN+RNN+CTC structure to establish end-to-end basecalling for the nanopore sequencer.  
 Built with **TensorFlow** and python 2.7.
 
