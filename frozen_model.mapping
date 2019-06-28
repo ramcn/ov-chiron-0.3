@@ -1,0 +1,575 @@
+<?xml version="1.0" ?>
+<mapping>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="205" name="res_layer2/branch2/conv2c_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="cnn_logits" out_port_id="0"/>
+		<IR id="299" name="MatMul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="247" name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="25" name="ScaleShift/res_layer1/branch1/conv1_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="108" name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/conv1_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="22" name="res_layer1/branch1/conv1_bn/conv1_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a/conv2a" out_port_id="0"/>
+		<IR id="31" name="res_layer1/branch2/conv2a/conv2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="20" name="res_layer1/branch1/conv1_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="0"/>
+		<IR id="121" name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="100" name="res_layer1/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_relu/relu" out_port_id="0"/>
+		<IR id="177" name="res_layer2/branch2/conv2b_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="43" name="ScaleShift/res_layer1/branch2/conv2a_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="30" name="res_layer1/branch1/conv1_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="0"/>
+		<IR id="268" name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="0"/>
+		<IR id="96" name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="200" name="ScaleShift/res_layer2/branch2/conv2c_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="77" name="res_layer1/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="50" name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="14" name="res_layer1/branch1/conv1_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_relu/relu" out_port_id="0"/>
+		<IR id="59" name="res_layer1/branch2/conv2a_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/plus/final_relu" out_port_id="0"/>
+		<IR id="207" name="res_layer2/plus/final_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="176" name="res_layer2/branch2/conv2b_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="189" name="res_layer2/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="139" name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="116" name="res_layer1/branch2/conv2c_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_relu/relu" out_port_id="0"/>
+		<IR id="148" name="res_layer2/branch2/conv2a_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="0"/>
+		<IR id="32" name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="0"/>
+		<IR id="210" name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="98" name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="249" name="res_layer3/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="286" name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch1/conv1/conv1" out_port_id="0"/>
+		<IR id="119" name="res_layer2/branch1/conv1/conv1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="cnnlogits_rs" out_port_id="0"/>
+		<IR id="301" name="cnnlogits_rs" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="111" name="ScaleShift/res_layer1/branch2/conv2c_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="99" name="res_layer1/branch2/conv2c_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="129" name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_relu/relu" out_port_id="0"/>
+		<IR id="237" name="res_layer3/branch2/conv2a_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="37" name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="132" name="ScaleShift/res_layer2/branch2/conv2a_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b/conv2b" out_port_id="0"/>
+		<IR id="60" name="res_layer1/branch2/conv2b/conv2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="0"/>
+		<IR id="38" name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="fea_rs" out_port_id="0"/>
+		<IR id="296" name="res_layer3/plus/final_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/plus/final_relu" out_port_id="0"/>
+		<IR id="296" name="res_layer3/plus/final_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="160" name="res_layer2/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="257" name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="228" name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="255" name="res_layer3/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="0"/>
+		<IR id="185" name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="218" name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="236" name="res_layer3/branch2/conv2a_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="15" name="ScaleShift/res_layer1/branch1/conv1_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="0"/>
+		<IR id="67" name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="289" name="ScaleShift/res_layer3/branch2/conv2c_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="260" name="ScaleShift/res_layer3/branch2/conv2b_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="0"/>
+		<IR id="127" name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b/conv2b" out_port_id="0"/>
+		<IR id="238" name="res_layer3/branch2/conv2b/conv2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/conv1_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="9" name="res_layer1/branch1/conv1_bn/conv1_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="184" name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="87" name="res_layer1/branch2/conv2b_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="155" name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="0"/>
+		<IR id="274" name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="188" name="res_layer2/branch2/conv2c_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="130" name="res_layer2/branch2/conv2a_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="0"/>
+		<IR id="156" name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="187" name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/conv1_bn_moments/mean" out_port_id="0"/>
+		<IR id="4" name="res_layer1/branch1/conv1_bn/conv1_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="142" name="ScaleShift/res_layer2/branch2/conv2a_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="294" name="res_layer3/branch2/conv2c_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="71" name="res_layer1/branch2/conv2b_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="69" name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="231" name="ScaleShift/res_layer3/branch2/conv2a_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="219" name="res_layer3/branch2/conv2a_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/plus/final_relu" out_port_id="0"/>
+		<IR id="118" name="res_layer1/plus/final_relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="input1" out_port_id="0"/>
+		<IR id="0" name="input1" out_port_id="0"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a/conv2a" out_port_id="0"/>
+		<IR id="209" name="res_layer3/branch2/conv2a/conv2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="273" name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="278" name="res_layer3/branch2/conv2c_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="82" name="ScaleShift/res_layer1/branch2/conv2b_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="cnnlogits_rs/shape" out_port_id="0"/>
+		<IR id="300" name="cnnlogits_rs/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="72" name="ScaleShift/res_layer1/branch2/conv2b_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="0"/>
+		<IR id="239" name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="70" name="res_layer1/branch2/conv2b_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/plus/add" out_port_id="0"/>
+		<IR id="206" name="res_layer2/plus/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="221" name="ScaleShift/res_layer3/branch2/conv2a_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="79" name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="53" name="ScaleShift/res_layer1/branch2/conv2a_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_relu/relu" out_port_id="0"/>
+		<IR id="88" name="res_layer1/branch2/conv2b_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1/conv1" out_port_id="0"/>
+		<IR id="3" name="res_layer1/branch1/conv1/conv1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_1" out_port_id="0"/>
+		<IR id="298" name="Reshape_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c/conv2c" out_port_id="0"/>
+		<IR id="267" name="res_layer3/branch2/conv2c/conv2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="226" name="res_layer3/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="147" name="res_layer2/branch2/conv2a_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="48" name="res_layer1/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="244" name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="166" name="res_layer2/branch2/conv2b_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="106" name="res_layer1/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape_1/shape" out_port_id="0"/>
+		<IR id="297" name="Reshape_1/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="0"/>
+		<IR id="245" name="res_layer3/branch2/conv2b_bn/conv2b_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="58" name="res_layer1/branch2/conv2a_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="215" name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="0"/>
+		<IR id="61" name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="277" name="res_layer3/branch2/conv2c_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="248" name="res_layer3/branch2/conv2b_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="101" name="ScaleShift/res_layer1/branch2/conv2c_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="0"/>
+		<IR id="179" name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="42" name="res_layer1/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="159" name="res_layer2/branch2/conv2b_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/plus/add" out_port_id="0"/>
+		<IR id="117" name="res_layer1/plus/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="40" name="res_layer1/branch2/conv2a_bn/conv2a_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/conv1_bn_moments/variance" out_port_id="0"/>
+		<IR id="10" name="res_layer1/branch1/conv1_bn/conv1_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="Reshape/shape" out_port_id="0"/>
+		<IR id="1" name="Reshape/shape/Output_0/Data__const" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="276" name="res_layer3/branch2/conv2c_bn/conv2c_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="0"/>
+		<IR id="90" name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="0"/>
+		<IR id="216" name="res_layer3/branch2/conv2a_bn/conv2a_bn_moments/variance" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/plus/add" out_port_id="0"/>
+		<IR id="295" name="res_layer3/plus/add" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/add_1" out_port_id="0"/>
+		<IR id="265" name="res_layer3/branch2/conv2b_bn/batchnorm/add_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="279" name="ScaleShift/res_layer3/branch2/conv2c_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="0"/>
+		<IR id="150" name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/mean" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="161" name="ScaleShift/res_layer2/branch2/conv2b_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c/conv2c" out_port_id="0"/>
+		<IR id="89" name="res_layer1/branch2/conv2c/conv2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b/conv2b" out_port_id="0"/>
+		<IR id="149" name="res_layer2/branch2/conv2b/conv2b" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="250" name="ScaleShift/res_layer3/branch2/conv2b_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="220" name="res_layer3/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="0"/>
+		<IR id="131" name="res_layer2/branch2/conv2a_bn/batchnorm/Rsqrt" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2a_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="41" name="res_layer1/branch2/conv2a_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/batchnorm/sub" out_port_id="0"/>
+		<IR id="171" name="ScaleShift/res_layer2/branch2/conv2b_bn/batchnorm/sub/add_" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch1/conv1/conv1" out_port_id="0"/>
+		<IR id="208" name="res_layer3/branch1/conv1/conv1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="Reshape" out_port_id="0"/>
+		<IR id="2" name="Reshape" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="137" name="res_layer2/branch2/conv2a_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a/conv2a" out_port_id="0"/>
+		<IR id="120" name="res_layer2/branch2/conv2a/conv2a" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/batchnorm/add" out_port_id="0"/>
+		<IR id="13" name="res_layer1/branch1/conv1_bn/batchnorm/add" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="195" name="res_layer2/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2b_relu/relu" out_port_id="0"/>
+		<IR id="266" name="res_layer3/branch2/conv2b_relu/relu" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c/conv2c" out_port_id="0"/>
+		<IR id="178" name="res_layer2/branch2/conv2c/conv2c" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="126" name="res_layer2/branch2/conv2a_bn/conv2a_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="66" name="res_layer1/branch2/conv2b_bn/conv2b_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference" out_port_id="0"/>
+		<IR id="95" name="res_layer1/branch2/conv2c_bn/conv2c_bn_moments/SquaredDifference/squared_" out_port_id="1"/>
+	</map>
+	<map>
+		<framework name="res_layer3/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="0"/>
+		<IR id="284" name="res_layer3/branch2/conv2c_bn/batchnorm/mul_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="197" name="res_layer2/branch2/conv2c_bn/conv2c_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2c_bn/batchnorm/mul" out_port_id="0"/>
+		<IR id="190" name="ScaleShift/res_layer2/branch2/conv2c_bn/batchnorm/mul" out_port_id="3"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="158" name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="0"/>
+		<IR id="168" name="res_layer2/branch2/conv2b_bn/conv2b_bn_moments/Squeeze" out_port_id="2"/>
+	</map>
+	<map>
+		<framework name="res_layer1/branch1/conv1_bn/conv1_bn_moments/Squeeze_1" out_port_id="0"/>
+		<IR id="12" name="res_layer1/branch1/conv1_bn/conv1_bn_moments/Squeeze_1" out_port_id="2"/>
+	</map>
+</mapping>
